@@ -1,7 +1,8 @@
 
       {% extends 'base.html' %}
-      {% block body %}
+      {% block title %} Update {% endblock title %}
 
+      {% block body %}
       <div class="container">
         <h1>Update ToDo</h1>
       <form action="/update/{{todo.sno}}" method="post">
